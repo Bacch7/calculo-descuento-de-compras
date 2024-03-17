@@ -1,0 +1,17 @@
+def calcular_descuento(monto_total, porcentaje_descuento=10):
+    descuento = monto_total * (porcentaje_descuento / 100)
+    return descuento
+
+# Llamadas a la función
+monto_compra_1 = 1000
+descuento_1 = calcular_descuento(monto_compra_1)
+monto_final_1 = monto_compra_1 - descuento_1
+print("Monto de descuento 1:", descuento_1)
+print("Monto final a pagar 1:", monto_final_1)
+
+monto_compra_2 = 2000
+porcentaje_descuento_2 = 15
+descuento_2 = calcular_descuento(monto_compra_2, porcentaje_descuento_2)
+monto_final_2 = monto_compra_2 - descuento_2
+print("Monto de descuento 2:", descuento_2)
+print("Monto final a pagar 2:", monto_final_2)
